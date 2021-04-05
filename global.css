@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.my-body-class {
+    background-color: #B22222;
+    margin: 1rem auto 0;
+    max-width: 90ch;
+}
+
+.logoContainer {
+    text-align: center;
+}
+
+.logoPrincipal {
+    display: block;
+    margin: auto;
+}
