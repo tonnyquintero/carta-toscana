@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/listaComidas/listaComidas": [
+    "/listaBebidas/listaBebidas": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/listaComidas/listaComidas.js"
+      "static/chunks/pages/listaBebidas/listaBebidas.js"
     ]
   },
   "ampFirstPages": []

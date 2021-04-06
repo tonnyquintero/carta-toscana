@@ -3,7 +3,7 @@ body {
 }
 
 .my-body-class {
-    background-color: #B22222;
+    background-image: url("/images/logoBack (2).jpg");
     margin: 1rem auto 0;
     max-width: 90ch;
 }

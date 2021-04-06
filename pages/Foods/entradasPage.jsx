@@ -5,7 +5,7 @@ const entradasPage = () => {
     return (
         <div>
             <Navbar />
-            <h1>Esta es la pagina de entrada</h1>
+            <h1>Esta es la pagina de entradas</h1>
         </div>
     );
 };
