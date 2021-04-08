@@ -11,9 +11,11 @@ export default class Navbar2 extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu inverted>
+        <div className="ui huge top fixed menu">
+      <Menu >
+
         <Link href="/" >
-        <Menu.Item
+        <Menu.Item header
           name='Inicio'
           active={activeItem === 'Inicio'}
         />
@@ -31,12 +33,13 @@ export default class Navbar2 extends Component {
         />
         </Link>
         <Link href="/about" >
-        <Menu.Item position='right'
+        <Menu.Item
           name='Sobre Nosotros'
           active={activeItem === 'Sobre Nosotros'}
         />
         </Link>
       </Menu>
+        </div>
     )
   }
 }

@@ -4,77 +4,77 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 const DrinkList = () => {
     return (
         <nav className='carrouselDeBebidas'>
-            <Card.Group itemsPerRow={3} >
+            <Card.Group itemsPerRow={2} >
             <Link href="/Drinks/cervezasPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Cervezas</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                      Contamos con variedad en nacionales e importadas.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        8 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/gaseosasPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Gaseosas</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                        Productos Coca-Cola y Postobon.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        7 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/bebidasPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Bebidas</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                      La Sección mas Refrescante.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        10 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/aromaticasPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Aromaticas</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                        Se Componen de Productos Naturales.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
@@ -87,34 +87,34 @@ const DrinkList = () => {
             </Link>
             <Link href="/Drinks/jugosCombinadosPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
-                    <Card.Header>Cervezas</Card.Header>
+                    <Card.Header>Jugos Combinados</Card.Header>
                     <Card.Meta>
                         <span className='date'>Jugos Combinados</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                      Deliciosa Combinación de Sabores.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        4 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/malteadasPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Malteadas</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                        Una Cremosa Variedad Para Ti.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
@@ -127,100 +127,100 @@ const DrinkList = () => {
             </Link>
             <Link href="/Drinks/cafesPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Cafés</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                      Fríos y Calientes, Con Licor o Sin Licor.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        12 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/licoresPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Licores</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                        Variedad en Licores Nacionales e Importados.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        10 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/vinosPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Vinos</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                      Desde Italia hasta tu Mesa.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        6 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/sangriaPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Sangria de la casa</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                        Dale un Toque de Elegancia a tu Día.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        4 Productos
                     </div>
                 </Card.Content>
             </Card>
             </Link>
             <Link href="/Drinks/coctelesPage" >
             <Card>
-                <Image src='./images/vaso.jpg'  wrapped ui={false} />
+                <Image src='./images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Cócteles</Card.Header>
                     <Card.Meta>
                         <span className='date'>Bebidas</span>
                     </Card.Meta>
                     <Card.Description>
-                        Compuestos por Carne, Pasta y Ensalada.
+                      Para todos los Gustos.
                     </Card.Description>
                 </Card.Content>
                 <Card.Content extra>
                     <div>
                         <Icon name='glass martini' />
-                        3 Productos
+                        16 Productos
                     </div>
                 </Card.Content>
             </Card>
