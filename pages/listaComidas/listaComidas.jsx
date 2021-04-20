@@ -10,14 +10,14 @@ const listaComidas = () => {
         <div>
         <Navbar2 />
         <div className='logoContainer'>
-            <Image className='logoPrincipal' src="/images/logon.jpg" alt="logo" width={500} height={200} />
+            <Image className='logoPrincipal' src="/images/logon.jpg" alt="logo" width={300} height={100} />
         </div>
         <nav className='carrouselDeComidas'>
              <Card.Group itemsPerRow={2} >
             <Link href="/Foods/entradasPage" >
            
                 <Card>
-                    <Image src='/images/entradas.jpeg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/empanadas.jpeg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Entradas</Card.Header>
                         <Card.Meta>

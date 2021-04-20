@@ -4,6 +4,7 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 
 
+
 const FoodList = () => {
     return (
         <nav className='carrouselDeComidas'>
@@ -11,7 +12,7 @@ const FoodList = () => {
             <Link href="/Foods/entradasPage" >
            
                 <Card>
-                    <Image src='./images/entradas.jpeg' size='tiny' wrapped ui={false} />
+                    <Image src='./images/empanadas.jpeg' size='large' />
                     <Card.Content>
                         <Card.Header>Entradas</Card.Header>
                         <Card.Meta>

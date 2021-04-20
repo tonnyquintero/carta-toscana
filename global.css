@@ -10,7 +10,7 @@ body {
 }
 
 .logoContainer {
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
     text-align: center;
 }
@@ -24,4 +24,22 @@ body {
     left: 0;
     top: 0;
     right: 0;
+}
+
+.ui.button {
+    margin-top: 5em;
+    align-items: center;
+    background-color: #1b1c1d;
+    color: white;
+    width: -webkit-fill-available;
+    line-height: unset;
+}
+
+
+.botonesAromaticas {
+    margin: auto;
+    margin-left: 3em;
+    width: 70%;
+    padding: 2em;
+
 }
