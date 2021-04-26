@@ -1,13 +1,40 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar2 from '../../components/Navbar/Navbar2'
+import { Card, Icon } from 'semantic-ui-react'
 
-const menuInfantilPage = () => {
+
+function menuInfantilPage() {
+
     return (
-        <div>
-            <Navbar />
-            <h1>Esta es la pagina de menu infantil</h1>
-        </div>
-    );
-};
 
-export default menuInfantilPage;
+      <div>
+        <Navbar2 />
+
+       <Card.Group centered className='container_padding' >
+          <Card>
+            <Card.Content header='Nugguets de Pollo x7' />
+              <Card.Content description='Croquetas de Pollo Acompañadas de Papas Francesas y Miel Mostaza' />
+              <Card.Content extra>
+              <Icon name='dollar' />15.000
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Card.Content header='Salchipapas' />
+              <Card.Content description='Papas a la Francesa y Salchichas' />
+              <Card.Content extra>
+              <Icon name='dollar' />15.000
+            </Card.Content>
+          </Card>
+
+        </Card.Group>
+      
+
+
+      </div>
+
+      
+    )
+  }
+  
+  export default menuInfantilPage;

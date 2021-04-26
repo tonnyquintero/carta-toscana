@@ -1,13 +1,54 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar2 from '../../components/Navbar/Navbar2'
+import { Card, Icon } from 'semantic-ui-react'
 
-const jugosCombinadosPage = () => {
+
+function jugosCombinadosPage() {
+
     return (
-        <div>
-            <Navbar />
-            <h1>Esta es la pagina de jugos combinados</h1>
-        </div>
-    );
-};
 
-export default jugosCombinadosPage;
+      <div>
+        <Navbar2 />
+
+       <Card.Group centered className='container_padding' >
+          <Card>
+            <Card.Content header='Maracuyá-Coco' />
+              <Card.Content extra>
+              <Icon name='dollar' />7.000
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Card.Content header='Piña-Coco' />
+              <Card.Content extra>
+              <Icon name='dollar' />7.000
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Card.Content header='Mandarina-Fresa' />
+              <Card.Content description='Incluye Hierbabuena' />
+              <Card.Content extra>
+              <Icon name='dollar' />7.000
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Card.Content header='Maracuyá-Piña' />
+              <Card.Content description='Incluye Hierbabuena' />
+              <Card.Content extra>
+              <Icon name='dollar' />7.000
+            </Card.Content>
+          </Card>
+
+        </Card.Group>
+      
+
+
+      </div>
+
+      
+    )
+  }
+  
+  export default jugosCombinadosPage;

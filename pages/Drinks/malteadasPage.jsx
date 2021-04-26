@@ -1,13 +1,45 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar2 from '../../components/Navbar/Navbar2'
+import { Card, Icon } from 'semantic-ui-react'
 
-const malteadasPage = () => {
+
+function malteadasPage() {
+
     return (
-        <div>
-            <Navbar />
-            <h1>Esta es la pagina de malteadas</h1>
-        </div>
-    );
-};
 
-export default malteadasPage;
+      <div>
+        <Navbar2 />
+
+       <Card.Group centered className='container_padding' >
+          <Card>
+            <Card.Content header='Chocolate' />
+              <Card.Content extra>
+              <Icon name='dollar' />9.000
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Card.Content header='Vainilla' />
+              <Card.Content extra>
+              <Icon name='dollar' />9.000
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Card.Content header='Café' />
+              <Card.Content extra>
+              <Icon name='dollar' />9.000
+            </Card.Content>
+          </Card>
+
+        </Card.Group>
+      
+
+
+      </div>
+
+      
+    )
+  }
+  
+  export default malteadasPage;

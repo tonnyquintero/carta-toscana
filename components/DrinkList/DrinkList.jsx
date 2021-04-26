@@ -91,7 +91,7 @@ const DrinkList = () => {
                 <Card.Content>
                     <Card.Header>Jugos Combinados</Card.Header>
                     <Card.Meta>
-                        <span className='date'>Jugos Combinados</span>
+                        <span className='date'>bebidas</span>
                     </Card.Meta>
                     <Card.Description>
                       Deliciosa Combinación de Sabores.

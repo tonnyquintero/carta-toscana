@@ -302,9 +302,4 @@ const listaComidas = () => {
 }
 
 
-    <Card.Group itemsPerRow={3} stackable>
-     
-    </Card.Group>
-
-
 export default listaComidas;

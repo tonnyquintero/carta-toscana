@@ -16,9 +16,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Cervezas</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                         Contamos con variedad en nacionales e importadas.
                     </Card.Description>
@@ -36,9 +33,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Gaseosas</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                       Productos Coca-Cola y Postobon.
                     </Card.Description>
@@ -56,9 +50,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Bebidas</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                         La Sección mas Refrescante.
                     </Card.Description>
@@ -76,9 +67,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Aromaticas</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                       Se Componen de Productos Naturales.
                     </Card.Description>
@@ -96,9 +84,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Jugos Combinados</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Jugos Combinados</span>
-                    </Card.Meta>
                     <Card.Description>
                         Deliciosa Combinación de Sabores.
                     </Card.Description>
@@ -116,9 +101,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Malteadas</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                       Una Cremosa Variedad Para Ti.
                     </Card.Description>
@@ -136,9 +118,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Cafés</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                         Fríos y Calientes, Con Licor o Sin Licor.
                     </Card.Description>
@@ -156,9 +135,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Licores</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                       Variedad en Licores Nacionales e Importados..
                     </Card.Description>
@@ -176,9 +152,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Vinos</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                         Desde Italia hasta tu Mesa.
                     </Card.Description>
@@ -196,9 +169,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Sangria de la casa</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                       Dale un Toque de Elegancia a tu Día.
                     </Card.Description>
@@ -216,9 +186,6 @@ const listaBebidas = () => {
                 <Image src='/images/cocteles.jpeg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Cócteles</Card.Header>
-                    <Card.Meta>
-                        <span className='date'>Bebidas</span>
-                    </Card.Meta>
                     <Card.Description>
                         Para todos los Gustos.
                     </Card.Description>

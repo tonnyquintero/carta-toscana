@@ -1,80 +1,44 @@
 import React from 'react';
 import Navbar2 from '../../components/Navbar/Navbar2'
-import { Button, Header, Image, Modal } from 'semantic-ui-react'
+import { Card, Icon } from 'semantic-ui-react'
+
 
 function combinadosPage() {
-    const [open, setOpen] = React.useState(false)
-  
-    return (
-      <div>
 
+    return (
+
+      <div>
         <Navbar2 />
 
-          <Modal
-        onClose={() => setOpen(false)}
-        onOpen={() => setOpen(true)}
-        open={open}
-        trigger={<Button>Pollo</Button>}
-      >
-        <Modal.Header>Combinados</Modal.Header>
-        <Modal.Content image>
-          <Image size='medium' src='/images/combinadoCañon.jpeg' wrapped />
-          <Modal.Description>
-            <Header>Pollo</Header>
-            <p>
-              We've found the following gravatar image associated with your e-mail
-              address.
-            </p>
-            <p>Is it okay to use this photo?</p>
-          </Modal.Description>
-        </Modal.Content>
-        <Modal.Actions>
-          <Button color='black' onClick={() => setOpen(false)}>
-            Atras
-          </Button>
-          <Button
-            content="Yep, that's me"
-            labelPosition='right'
-            icon='checkmark'
-            onClick={() => setOpen(false)}
-            positive
-          />
-        </Modal.Actions>
-      </Modal>
+       <Card.Group centered className='container_padding' >
+          <Card>
+            <Card.Content header='Pollo Gratinado en Salsa Bechamel' />
+              <Card.Content extra>
+              <Icon name='dollar' />18.000
+            </Card.Content>
+          </Card>
 
-      <Modal
-        onClose={() => setOpen(false)}
-        onOpen={() => setOpen(true)}
-        open={open}
-        trigger={<Button>Cañon</Button>}
-      >
-        <Modal.Header>Combinados</Modal.Header>
-        <Modal.Content image>
-          <Image size='medium' src='/images/combinadoCañon.jpeg' wrapped />
-          <Modal.Description>
-            <Header>Cañon</Header>
-            <p>
-              We've found the following gravatar image associated with your e-mail
-              address.
-            </p>
-            <p>Is it okay to use this photo?</p>
-          </Modal.Description>
-        </Modal.Content>
-        <Modal.Actions>
-          <Button color='black' onClick={() => setOpen(false)}>
-            Atras
-          </Button>
-          <Button
-            content="Yep, that's me"
-            labelPosition='right'
-            icon='checkmark'
-            onClick={() => setOpen(false)}
-            positive
-          />
-        </Modal.Actions>
-      </Modal>
+          <Card>
+            <Card.Content header='Cañon Gratinado en Salsa Napolitana' />
+              <Card.Content extra>
+              <Icon name='dollar' />19.000
+            </Card.Content>
+          </Card>
+
+          <Card>
+            <Card.Content header='Res con Salsa de la Casa' />
+              <Card.Content extra>
+              <Icon name='dollar' />20.000
+            </Card.Content>
+          </Card>
+
+        </Card.Group>
+      
+
 
       </div>
+
+      
     )
   }
   

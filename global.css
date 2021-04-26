@@ -4,20 +4,21 @@ body {
 
 .my-body-class {
     background-image: url("/images/logoBack (2).jpg");
-    margin: 1rem auto 0;
-    max-width: 90ch;
+    margin: auto 0;
+    max-width: 100ch;
     padding-left: 1rem
 }
 
 .logoContainer {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
     text-align: center;
 }
 
 .logoPrincipal {
     display: block;
     margin: auto;
+    
 }
 
 .ui huge top fixed menu {
@@ -35,11 +36,23 @@ body {
     line-height: unset;
 }
 
+.container_padding {
+    padding-top: 26%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    padding-right: 8%;
+}
 
-.botonesAromaticas {
-    margin: auto;
-    margin-left: 3em;
-    width: 70%;
-    padding: 2em;
 
+
+.cafe_padding {
+    padding-top: 27%;
+}
+
+.cafes_padding {
+    padding-top: 3%;
+}
+
+.centered {
+    text-align: center;
 }

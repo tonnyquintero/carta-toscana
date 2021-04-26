@@ -11,7 +11,7 @@ function HomePage() {
         <div>
             <Navbar2 />
             <div className='logoContainer'>
-            <Image className='logoPrincipal' src="/images/logon.jpg" alt="logo" width={500} height={200} />
+            <Image className='logoPrincipal' src="/images/logon.jpg" alt="logo" width={300} height={100} />
             </div>
             <FoodList />
             <DrinkList />
