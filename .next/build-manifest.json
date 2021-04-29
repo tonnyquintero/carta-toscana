@@ -14,16 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Drinks/gaseosasPage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Drinks/gaseosasPage.js"
-    ],
-    "/Drinks/licoresPage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Drinks/licoresPage.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -34,10 +24,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/listaBebidas/listaBebidas": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/listaBebidas/listaBebidas.js"
+      "static/chunks/pages/about.js"
     ],
     "/listaComidas/listaComidas": [
       "static/chunks/webpack.js",

@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/listaComidas/listaComidas": "pages/listaComidas/listaComidas.js",
-  "/listaBebidas/listaBebidas": "pages/listaBebidas/listaBebidas.js",
-  "/Drinks/licoresPage": "pages/Drinks/licoresPage.js",
-  "/Drinks/gaseosasPage": "pages/Drinks/gaseosasPage.js"
+  "/about": "pages/about.js",
+  "/listaComidas/listaComidas": "pages/listaComidas/listaComidas.js"
 }

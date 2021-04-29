@@ -28,12 +28,11 @@ body {
 }
 
 .ui.button {
-    margin-top: 5em;
+    margin-top: 1em;
     align-items: center;
     background-color: #1b1c1d;
     color: white;
-    width: -webkit-fill-available;
-    line-height: unset;
+    margin-right: 10px;
 }
 
 .container_padding {
@@ -55,4 +54,27 @@ body {
 
 .centered {
     text-align: center;
+}
+
+.button_container {
+    padding-top: 22%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+
+.yoyo {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 8%;
+
+}
+
+.cocaCola{
+    padding-top: 22%; 
+    text-align: center; 
+    align-content: center;
+    align-items: center;
 }

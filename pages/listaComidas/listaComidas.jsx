@@ -17,7 +17,7 @@ const listaComidas = () => {
             <Link href="/Foods/entradasPage" >
            
                 <Card>
-                    <Image src='/images/empanadas.jpeg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/entradas1.jpeg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Entradas</Card.Header>
                         <Card.Meta>
@@ -37,7 +37,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/combinadosPage" >
             <Card>
-                    <Image src='/images/combinadoCañon.jpeg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/combinadoCañonEdit.jpeg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Combinados</Card.Header>
                         <Card.Meta>
@@ -57,7 +57,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/especialesPage" >
             <Card>
-                    <Image src='/images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/especiales.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Especiales de la Casa</Card.Header>
                         <Card.Meta>
@@ -77,7 +77,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/pastaPage" >
             <Card>
-                    <Image src='/images/pastaSolomito.jpeg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/pastaPyCh.jpeg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Pastas</Card.Header>
                         <Card.Meta>
@@ -97,7 +97,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/crepesPage" >
             <Card>
-                    <Image src='/images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/creps.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Crepes</Card.Header>
                         <Card.Meta>
@@ -137,7 +137,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/ensaladasPage" >
             <Card>
-                    <Image src='/images/ensaladaPrimaveral.jpeg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/ensaladaPrimaveralEdit.jpeg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Ensaladas</Card.Header>
                         <Card.Meta>
@@ -177,7 +177,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/gratinadosPage" >
             <Card>
-                    <Image src='/images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/gratinado.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Gratinados</Card.Header>
                         <Card.Meta>
@@ -197,7 +197,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/deliciasToscanaPage" >
             <Card>
-                    <Image src='/images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/italianisimas.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Delicias Toscana</Card.Header>
                         <Card.Meta>
@@ -217,7 +217,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/hamburguesasPage" >
             <Card>
-                    <Image src='/images/hVegetariana.jpeg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/hArtesanal1.jpeg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Hamburguesas</Card.Header>
                         <Card.Meta>
@@ -257,7 +257,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/menuInfantilPage" >
             <Card>
-                    <Image src='/images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/especiales.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Menú Infantil</Card.Header>
                         <Card.Meta>
@@ -277,7 +277,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/adicionesPage" >
             <Card>
-                    <Image src='/images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/adiciones.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Adiciones</Card.Header>
                         <Card.Meta>
