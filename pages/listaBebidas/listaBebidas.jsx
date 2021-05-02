@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { Card, Icon, Image } from 'semantic-ui-react'
 import Navbar2 from '../../components/Navbar/Navbar2'
+import Footer from '../../components/Footer/Footer'
 
 const listaBebidas = () => {
     return (
-        <div>
+        <div className='drinkContainer'>
             <Navbar2 />
             <div className='logoContainer'>
             <Image className='logoPrincipal' src="/images/logon.jpg" alt="logo" width={300} height={100} />
@@ -85,7 +86,7 @@ const listaBebidas = () => {
             
             <Link href="/Drinks/aromaticasPage" >
             <Card>
-                <Image src='/images/sodasSaborisadas.jpeg' size='tiny' wrapped ui={false} />
+                <Image src='/images/aromatica.jpg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Aromaticas</Card.Header>
                     <Card.Description>
@@ -102,7 +103,7 @@ const listaBebidas = () => {
             </Link>
             <Link href="/Drinks/jugosCombinadosPage" >
             <Card>
-                <Image src='/images/sodasSaborisadas.jpeg' size='tiny' wrapped ui={false} />
+                <Image src='/images/jugoCombinado.jpg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Jugos Combinados</Card.Header>
                     <Card.Description>
@@ -171,7 +172,7 @@ const listaBebidas = () => {
             </Link>
             <Link href="/Drinks/sangriaPage" >
             <Card>
-                <Image src='/images/bardolino.jpg' size='tiny' wrapped ui={false} />
+                <Image src='/images/sangria.jpg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Sangria de la casa</Card.Header>
                     <Card.Description>
@@ -205,7 +206,11 @@ const listaBebidas = () => {
             </Link>
             </Card.Group>
         </nav>
+        <div className='footer'>
+            <Footer className='ui vertical segment' /> 
         </div>
+        </div>
+        
     );
 };
 

@@ -52,7 +52,7 @@ const FoodList = () => {
             </Link>
             <Link href="/Foods/especialesPage" >
             <Card>
-                    <Image src='./images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='./images/especiales.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Especiales de la Casa</Card.Header>
                         <Card.Meta>
@@ -172,7 +172,7 @@ const FoodList = () => {
             </Link>
             <Link href="/Foods/gratinadosPage" >
             <Card>
-                    <Image src='./images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='./images/gratinado.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Gratinados</Card.Header>
                         <Card.Meta>
@@ -192,7 +192,7 @@ const FoodList = () => {
             </Link>
             <Link href="/Foods/deliciasToscanaPage" >
             <Card>
-                    <Image src='./images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='./images/italianismas.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Delicias Toscana</Card.Header>
                         <Card.Meta>
@@ -205,7 +205,7 @@ const FoodList = () => {
                     <Card.Content extra>
                         <div>
                             <Icon name='food' />
-                            2 Productos
+                            3 Productos
                         </div>
                     </Card.Content>
                 </Card>
@@ -252,7 +252,7 @@ const FoodList = () => {
             </Link>
             <Link href="/Foods/menuInfantilPage" >
             <Card>
-                    <Image src='./images/lasagna.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='./images/especiales.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Menú Infantil</Card.Header>
                         <Card.Meta>

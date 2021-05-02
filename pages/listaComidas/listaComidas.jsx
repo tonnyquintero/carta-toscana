@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Card, Icon, Image } from 'semantic-ui-react'
 import Navbar2 from '../../components/Navbar/Navbar2'
+import Footer from '../../components/Footer/Footer'
 
 
 
@@ -197,7 +198,7 @@ const listaComidas = () => {
             </Link>
             <Link href="/Foods/deliciasToscanaPage" >
             <Card>
-                    <Image src='/images/italianisimas.jpg' size='tiny' wrapped ui={false} />
+                    <Image src='/images/italianismas.jpg' size='tiny' wrapped ui={false} />
                     <Card.Content>
                         <Card.Header>Delicias Toscana</Card.Header>
                         <Card.Meta>
@@ -210,7 +211,7 @@ const listaComidas = () => {
                     <Card.Content extra>
                         <div>
                             <Icon name='food' />
-                            2 Productos
+                            3 Productos
                         </div>
                     </Card.Content>
                 </Card>
@@ -297,6 +298,9 @@ const listaComidas = () => {
             </Link>
             </Card.Group>
         </nav>
+        <div className='footer'>
+            <Footer className='ui vertical segment' />
+        </div>
         </div>
     );
 }

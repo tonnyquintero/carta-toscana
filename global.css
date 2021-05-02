@@ -1,3 +1,13 @@
+#__next {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  #__next > main {
+    margin: 1rem auto 0;
+    max-width: 80ch;
+  }
+
 body {
     margin: 0;
 }
@@ -6,7 +16,7 @@ body {
     background-image: url("/images/logoBack (2).jpg");
     margin: auto 0;
     max-width: 100ch;
-    padding-left: 1rem
+    
 }
 
 .logoContainer {
@@ -18,6 +28,7 @@ body {
 .logoPrincipal {
     display: block;
     margin: auto;
+    text-align: center;
     
 }
 
@@ -65,7 +76,7 @@ body {
 
 .yoyo {
     text-align: center;
-    padding-top: 4%;
+    padding-top: 1%;
     padding-bottom: 4%;
     padding-left: 5%;
     padding-right: 8%;
@@ -73,8 +84,49 @@ body {
 }
 
 .cocaCola{
-    padding-top: 22%; 
+    padding-top: 25%;
+    justify-content: center;
     text-align: center; 
     align-content: center;
     align-items: center;
+    display: flex;
+}
+
+.about {
+    text-align: center;
+
+}
+
+.carrouselDeComidas {
+    padding-left: 4%;
+
+}
+.drinkContainer {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carrouselDeBebidas {
+    padding-left: 4%;
+}
+
+.segmento_about {
+    padding-left:4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.footer {
+    background-color: #1b1c1d;
+    color: whitesmoke;
+    width: 100%;
+    padding-left: 4%;
+    box-sizing: content-box;
+}
+
+.ui.header {
+    color: whitesmoke;
+    display: flex;
 }

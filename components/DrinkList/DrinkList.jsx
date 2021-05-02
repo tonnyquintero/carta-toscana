@@ -113,7 +113,7 @@ const DrinkList = () => {
             </Link>
             <Link href="/Drinks/jugosCombinadosPage" >
             <Card>
-                <Image src='./images/sodasSaborisadas.jpeg' size='tiny' wrapped ui={false} />
+                <Image src='./images/jugoCombinado.jpg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Jugos Combinados</Card.Header>
                     <Card.Meta>
@@ -194,7 +194,7 @@ const DrinkList = () => {
             </Link>
             <Link href="/Drinks/sangriaPage" >
             <Card>
-                <Image src='./images/bardolino.jpg' size='tiny' wrapped ui={false} />
+                <Image src='./images/sangria.jpg' size='tiny' wrapped ui={false} />
                 <Card.Content>
                     <Card.Header>Sangria de la casa</Card.Header>
                     <Card.Meta>
